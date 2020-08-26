@@ -1,0 +1,30 @@
+{
+    "dataset": {
+        "name":"name",
+        "title":"title",
+        "profile":"",
+        "description": "notes",
+        "home page": "",
+        "version":"version",
+        "source path":"url",
+        "contributor title":"author",
+        "contributor title":"maintainer",
+        "contributor email":"author_email",
+        "contributor email":"maintainer_email",
+        "keywords":"tags",
+        "licenses":"license_id",
+        "resources":"resources",
+    },
+    "resource": {
+    	"name":"name",
+        "title":"title",
+        "profile":"",
+        "description": "description",
+        "format":"format",
+        "encoding":"",
+        "mediatype":"mimetype",
+        "bytes":"size",
+        "hash":"hash",
+        
+    }
+}
