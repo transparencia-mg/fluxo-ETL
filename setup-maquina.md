@@ -17,8 +17,7 @@
    - Salve e reinicie o prompt de comando.
  - Obs.: Selecione o caminho de instalação da sua máquina e não copie e cole o que os tutorais sugerem, pois poderá haver divergência.
  - Utilização: Navegando até a pasta desejada digite "subl ."
-- [ ] Configurar atalho [Sublime auto-save](https://lucybain.com/resources/setting-up-sublime-autosave/).
-- [ ] Configurar atalho para [comentar linhas](https://newbedev.com/shortcut-to-comment-out-a-block-of-code-with-sublime-text) no Sublime
+
 - [ ] Instalar [git](https://git-scm.com/).
   -  Apenas a título de sugestão, visto que isso não atrapalhará em nada a instalação, como utilizaremos muito github, seguir com as opções padrão até "Adjusting the name of the initial branch in new repositories" e selecionar a opção "Override the default branch name for new repositories" com "main" na caixa de diálogo aberta para inserção da sua branch padrão. 
   -  Em "Configuring the terminal emulator to use with Git Bash" selecione "Use Windows' default console window"
@@ -43,6 +42,8 @@ $ git config --global http.proxy http://USER:PASSWORD@PROXYADDRESS:PORT
 # Exemplo
 $ git config --global http.proxy http://m123456:123456@proxycamg.prodemge.gov.br:8080
 ```
+#### Se a base de dados for grande
+
 - [ ] Instalação [git large files - glf](https://git-lfs.github.com/)
  - [ ] Download e instalação de executável para Windows.
  - [ ] Finalização da instalação via terminal e conferência 
@@ -62,6 +63,11 @@ git-lfs/2.13.3 (GitHub; windows amd64; go 1.16.2; git a5e65851)
 - [ ] Configurar abertura Sublime via terminal.
  - [Vídeo de Referência](https://www.youtube.com/watch?v=MlnH8t4S4Qw).
  - [Link de Referência](https://stackoverflow.com/questions/9440639/sublime-text-from-command-line#:~:text=Add%20the%20installation%20folder%20to,cpl).
+
+- [ ] Configurar atalho [Sublime auto-save](https://lucybain.com/resources/setting-up-sublime-autosave/).
+- [ ] Configurar atalho para [comentar linhas](https://newbedev.com/shortcut-to-comment-out-a-block-of-code-with-sublime-text) no Sublime
+
+
 
 
 ## Para rodar pacote dtamg
