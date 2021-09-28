@@ -50,6 +50,12 @@ $ git config --global http.proxy http://USER:PASSWORD@PROXYADDRESS:PORT
 # Exemplo
 $ git config --global http.proxy http://m123456:123456@proxycamg.prodemge.gov.br:8080
 ```
+
+- [ ] Fixar a senha no git para possibilitar todas as operações de clone, pull e push sem precisar digitar as credenciais em cada operação - digitar na bash:
+
+```Git Bash Terminal
+$ git config --global credential.helper wincred
+````
 #### Se a base de dados for grande
 
 - [ ] Instalação [git large files - glf](https://git-lfs.github.com/)
