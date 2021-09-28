@@ -1,5 +1,13 @@
 # Setup da máquina para uso de repositórios git com controle de versão
 
+## Requisitos físicos da máquina
+
+- Memória desejável: 8GB de RAM
+
+- Processador:
+
+- 
+
 ## Indispensável
 
 - [ ] Autorizar usuário como administrador da máquina pois algumas instalações necessitam deste privilégio.
