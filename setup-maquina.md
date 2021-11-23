@@ -94,7 +94,7 @@ git-lfs/2.13.3 (GitHub; windows amd64; go 1.16.2; git a5e65851)
   - Em "Advanced Options" marque "Install for all users".
   - Conferência de instalação realizada com sucesso:
 
-```Git Bash Terminal
+````Git Bash Terminal
 $ python --version````
 
 ````# Tipo de resposta esperada, podendo a versão ser diferente devido à data de instalação
@@ -106,11 +106,10 @@ Python 3.9.6
 ````
 $ python -m venv venv
 ````
+````# Ativação
 ````
-# Ativação
-````
-````
-$ source venv/Scripts/activate
+
+````$ source venv/Scripts/activate
 ```
 
 - Realizar login no [Portal de Dados Abertos - Produção](https://dados.mg.gov.br)
