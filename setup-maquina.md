@@ -101,6 +101,25 @@ $ python --version
 Python 3.9.6
 ```
 
+# Criação e Ativação ambiente python Windows
+# Criação
+````
+$ python -m venv venv
+````
+# Ativação
+````
+$ source venv/Scripts/activate
+```
+
+- Realizar login no [Portal de Dados Abertos - Produção](https://dados.mg.gov.br)
+- Realizar login no [Portal de Dados Abertos - Homologação](https://homologa.cge.mg.gov.br)
+- Realizar cadastro de [variáveis de ambiente Windows](https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/) para publicação de recursos nos ambientes de produção e homologação:
+ - Produção:
+  - CKAN_HOST_PRODUCAO e CKAN_KEY_PRODUCAO
+ - Homologação:
+  - CKAN_HOST e CKAN_KEY
+- [Configurar proxy para instalar pacotes python](https://leifengblog.net/blog/how-to-use-pip-behind-a-proxy/)
+
 ## Para rodar validação local com makefile
 
 - [ ] Instalar [R](https://vps.fmvz.usp.br/CRAN/)
