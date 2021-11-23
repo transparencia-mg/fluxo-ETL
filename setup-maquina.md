@@ -100,17 +100,20 @@ $ python --version````
 ````# Tipo de resposta esperada, podendo a versão ser diferente devido à data de instalação
 Python 3.9.6
 ```
+
+````# Criação ambiente python Windows
 ````
-# Criação ambiente python Windows
-````
+
 ````
 $ python -m venv venv
 ````
+
 ````# Ativação
 ````
 
-````$ source venv/Scripts/activate
-```
+````
+$ source venv/Scripts/activate
+````
 
 - Realizar login no [Portal de Dados Abertos - Produção](https://dados.mg.gov.br)
 - Realizar login no [Portal de Dados Abertos - Homologação](https://homologa.cge.mg.gov.br)
