@@ -95,18 +95,20 @@ git-lfs/2.13.3 (GitHub; windows amd64; go 1.16.2; git a5e65851)
   - Conferência de instalação realizada com sucesso:
 
 ```Git Bash Terminal
-$ python --version
+$ python --version````
 
-# Tipo de resposta esperada, podendo a versão ser diferente devido à data de instalação
+````# Tipo de resposta esperada, podendo a versão ser diferente devido à data de instalação
 Python 3.9.6
 ```
-
-# Criação e Ativação ambiente python Windows
-# Criação
+````
+# Criação ambiente python Windows
+````
 ````
 $ python -m venv venv
 ````
+````
 # Ativação
+````
 ````
 $ source venv/Scripts/activate
 ```
